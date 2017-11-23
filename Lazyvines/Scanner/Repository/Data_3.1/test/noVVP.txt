@@ -1,0 +1,7 @@
+		/*
+		// Compute Drop Point: Do NOT Apply Vertical VP Assumption
+		float y_dropped = (float)(calib->BM*IMG_X + calib->BB); 
+		float hyp = (float)(sqrt(pow((float)(calib->BX - IMG_X), 2) + pow((calib->BY - y_dropped), 2)));
+		float XNA = (IMG_X>calib->BX) ? hyp*sin(angle)*-1 : hyp*sin(angle);
+		float YNA = (IMG_X>calib->BX) ? hyp*cos(angle)*-1 : hyp*cos(angle);
+		*/

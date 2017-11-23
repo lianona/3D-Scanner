@@ -1,0 +1,18 @@
+		/*
+		// Compute POI: Applying Vertical VP Assumption
+		float vslope = (float)(calib->VVP_Y - IMG_Y) / (calib->VVP_X - IMG_X); 
+		float V_IMG_INT = (float)(calib->VVP_Y - calib->VVP_X * vslope); 
+		float POIx = (float)(V_IMG_INT - IMG_INT) / (slope - vslope); 
+		float POIy = (float)(calib->BM * POIx + calib->BB);
+
+		if (vslope == slope){
+			ptr_2d++;
+			ptr_3d++;
+			continue;
+		}
+
+		// Compute X & Y by dropping the point to base 
+		float hyp = (float)(sqrt(pow((float)(calib->BX - POIx), 2) + pow((calib->BY - POIy), 2)));
+		float XNA = (POIx>calib->BX) ? hyp*sin(angle)*-1 : hyp*sin(angle);
+		float YNA = (POIy>calib->BX) ? hyp*cos(angle)*-1 : hyp*cos(angle);
+		*/
