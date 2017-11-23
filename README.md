@@ -7,7 +7,8 @@ The project goal is to implement a scanning system which observes a physical obj
 
 ### How to use
 
-Please refer to the instruction.docx file for installtion and operation instructions.
+Please refer to the instruction.docx file for help with installtion and operation.
+Please refer to the doc folder for project demos and reports.
 
 ### Authors
 
